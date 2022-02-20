@@ -1,0 +1,6 @@
+n = int(input("digite o valor de n:"))
+for i in range(n):
+  k = i+1
+  for J in range(k):
+      print("*", end="")
+  print("\n", end ="")
